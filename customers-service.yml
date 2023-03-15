@@ -10,11 +10,6 @@ spring:
       database: customers-service
       repositories:
         enabled: 'true'
-  security:
-    oauth2:
-      resource-server:
-        jwt:
-          issuer-uri: http://${KC_HOST:localhost}:${KC_PORT:8080}/auth/realms/rental_cars
 
 
 management:
